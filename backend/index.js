@@ -9,7 +9,9 @@ const app = express();
 require("dotenv").config();
 
 app.use(cors({
-    origin: "*",
+    origin: ["https://nivesh-netra.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials: true
   }));
 app.use(express.json());
 app.use("/api/auth",userRoutes);
