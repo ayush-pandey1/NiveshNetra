@@ -1,4 +1,4 @@
-const host = "https://nivesh-netra-server.vercel.app";
+const host = "https://niveshnetra.onrender.com";
 export const signUpRoute=`${host}/api/auth/signUp`;
 export const loginRoute = `${host}/api/auth/login`;
 export const logoutRoute = `${host}/api/auth/logout`;
