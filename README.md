@@ -1,4 +1,4 @@
-# NiveshNetra 
+# NiveshNetra  https://nivesh-netra.vercel.app/
 NiveshNetra is a web application for tracking stocks and managing watchlists. It consists of a frontend built with React and a backend built with Node.js and Express. The application allows users to search for stocks, add them to their watchlists, and view intraday data for selected stocks.
 
 Live Link https://nivesh-netra.vercel.app/
