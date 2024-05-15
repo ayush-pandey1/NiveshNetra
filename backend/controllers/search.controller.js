@@ -1,11 +1,12 @@
 const axios = require('axios');
+require("dotenv").config();
 
 module.exports.getIntradayData = async (req, res,next) => {
     try {
         const { symbol } = req.body;
 
         console.log(symbol);
-        const apiKey = 'XYCF40WWPHTUEH4Z';
+        const apiKey = process.env.API_KEY;
         // const apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${symbol}&interval=5min&apikey=${apiKey}`;
         const apiUrl = "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol="+symbol+"&interval=30min&apikey="+apiKey;
 
