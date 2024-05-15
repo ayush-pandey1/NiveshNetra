@@ -1,4 +1,4 @@
-const host = "http://localhost:8080";
+const host = "https://nivesh-netra-server.vercel.app";
 export const signUpRoute=`${host}/api/auth/signUp`;
 export const loginRoute = `${host}/api/auth/login`;
 export const logoutRoute = `${host}/api/auth/logout`;
