@@ -9,6 +9,7 @@ import { loginRoute } from "../utility/APIRoutes.js";
 
 function Login() {
   const navigate=useNavigate();
+  axios.defaults.withCredentials = true;
 
   useEffect(() => {
     if (localStorage.getItem("NiveshNetra-app")) {
