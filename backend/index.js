@@ -10,7 +10,7 @@ require("dotenv").config();
 
 app.use(cors({
   origin: "https://nivesh-netra.vercel.app",
-  methods: ["GET", "POST"], // Add any other methods you need
+  methods: "*", // Add any other methods you need
   credentials: true // Enable credentials (cookies, authorization headers, etc.)
 }));
 
