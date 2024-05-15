@@ -24,7 +24,7 @@ export default function SearchBar() {
   const handleChange = (event) => {
     setsearchKeyword(event.target.value);
   };
-
+axios.defaults.withCredentials = true;
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
