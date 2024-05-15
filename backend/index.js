@@ -9,15 +9,7 @@ const app = express();
 require("dotenv").config();
 
 app.use(cors({
-    origin: ["https://nivesh-netra.vercel.app",
-             "https://nivesh-netra.vercel.app/api/auth/signUp"
-             "https://nivesh-netra.vercel.app/api/auth/login",
-             "https://nivesh-netra.vercel.app/api/auth/logout",
-             "https://nivesh-netra.vercel.app/api/watchlist",
-             "https://nivesh-netra.vercel.app/api/watchlist/retrieve",
-             "https://nivesh-netra.vercel.app/api/watchlist/retrieve",
-             "https://nivesh-netra.vercel.app/api/watchlist/delete",
-             "https://nivesh-netra.vercel.app/api/search/intraday"],
+    origin: ["https://nivesh-netra.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
   }));
