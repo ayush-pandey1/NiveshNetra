@@ -8,7 +8,7 @@ import axios from "axios";
 import { signUpRoute } from "../utility/APIRoutes";
 
 function Signup() {
-  axios.defaults.withCredentials = true;
+  
 
   const navigate=useNavigate();
   const toastOption = {
