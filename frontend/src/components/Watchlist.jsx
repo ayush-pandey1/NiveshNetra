@@ -11,7 +11,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Watchlist() {
-
+axios.defaults.withCredentials = true;
     const toastOption = {
         position: "bottom-right",
         autoClose: 3000,
